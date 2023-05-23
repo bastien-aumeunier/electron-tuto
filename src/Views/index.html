@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" type="text/css" href="../Assets/Styles/index.style.css">
+    <title>Bonjour depuis le rendu d'Electron !</title>
+  </head>
+  <body>
+    <h1>Bonjour depuis le rendu d'Electron !</h1>
+    <p>👋</p>
+    <p id="info"></p>
+    <div>
+      <p>Source actuelle du thème: <strong id="theme-source">System</strong></p>
+      <button id="toggle-dark-mode">Active/désactive le  Dark Mode</button>
+      <button id="reset-to-system">Reset to System Theme</button>
+    </div>
+  </body>
+  <script src="../Utils/renderer.js"></script>
+</html>
